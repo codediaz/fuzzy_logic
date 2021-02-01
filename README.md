@@ -5,6 +5,8 @@
 Scikit-Fuzzy is a collection of fuzzy logic algorithms intended for use in the SciPy Stack, written in the Python computing language.
 This SciKit is developed by the SciPy community. Contributions are welcome! Please join us on the mailing list or our persistent chatroom on Gitter.IM.
 
+[![DOI](https://zenodo.org/badge/8872608.svg)](https://zenodo.org/badge/latestdoi/8872608)
+
 ## Homepage and package documentation
 http://pythonhosted.org/scikit-fuzzy/
 
@@ -19,8 +21,6 @@ http://groups.google.com/group/scikit-fuzzy
 
 License
 -------
-[![DOI](https://zenodo.org/badge/8872608.svg)](https://zenodo.org/badge/latestdoi/8872608)
-
 Please read LICENSE.txt in this directory.
 
 IEEE Rounding for Matlab users
