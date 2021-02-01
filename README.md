@@ -1,5 +1,5 @@
-<h1>
-<a href="https://pythonhosted.org/scikit-fuzzy/install.html"><img alt="Robot logo" src="https://pythonhosted.org/scikit-fuzzy/_static/img/logo.png" width = "300px" height = "175px"/></a>
+<h1 align="center">
+<a href="https://pythonhosted.org/scikit-fuzzy/install.html"><img alt="Robot logo" src="https://pythonhosted.org/scikit-fuzzy/_static/img/logo.png" width = "275px" height = "150px"/></a>
 </h1>
 
 Scikit-Fuzzy is a collection of fuzzy logic algorithms intended for use in the SciPy Stack, written in the Python computing language.
