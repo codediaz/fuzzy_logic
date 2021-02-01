@@ -1,8 +1,7 @@
 <h1>
-        scikit-fuzzy
-            <a href="https://pythonhosted.org/scikit-fuzzy/install.html" target="_blank">
-           <img width=100px src="https://pythonhosted.org/scikit-fuzzy/_static/img/logo.png" alt="Project logo"></a>
-          
+        <a href="https://pythonhosted.org/scikit-fuzzy/install.html" target="_blank">
+            <img width=100px src="https://pythonhosted.org/scikit-fuzzy/_static/img/logo.png" alt="Project logo"></a>
+        Scikit-fuzzy
 </h1>
 
 <h3 align="center">Vanilla JavaScript App</h3>
