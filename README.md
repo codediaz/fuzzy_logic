@@ -19,6 +19,7 @@ http://groups.google.com/group/scikit-fuzzy
 
 License
 -------
+[![DOI](https://zenodo.org/badge/8872608.svg)](https://zenodo.org/badge/latestdoi/8872608)
 
 Please read LICENSE.txt in this directory.
 
