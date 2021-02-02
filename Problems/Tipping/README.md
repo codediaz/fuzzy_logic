@@ -85,11 +85,26 @@ To see the graphs with matplotlib in [Visual Studio Code](https://code.visualstu
 plt.show()
 ```
 ## Graphics 
-### Service:
+### Quality:
+```python
+quality['average']
+plt.show()
+```
 <a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_1.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_1.png" /></a>
+
+### Service:
 ```python
 service.view()
 plt.show()
 ```
+<a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_2.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_2.png" /></a>
+
+### Service:
+```python
+tip.view()
+plt.show()
+```
+<a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_3.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_3.png" /></a>
+
 
 
