@@ -54,7 +54,7 @@ We can use the skfuzzy control system API to model this. First, let’s define f
 ```
 For the representation of the graphs we use [Matplotlib](https://matplotlib.org/users/installing.html "matplotlib").
 ```python
-import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt
 ```
 ```python
 # New Antecedent/Consequent objects hold universe variables and membership
