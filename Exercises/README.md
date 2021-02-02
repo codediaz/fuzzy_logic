@@ -1,5 +1,9 @@
 <a href="https://pythonhosted.org/scikit-fuzzy/install.html"><img alt="Robot logo" src="https://pythonhosted.org/scikit-fuzzy/_static/img/logo.png" width = "150px" height = "75px" align= "right"/></a>
-## Table of Contents
+# Scikit-Fuzzy
+
+<h2> 
+Table of Contents
+</h2>
 
 - [About](#about)
 - [Installation](#Installation)
