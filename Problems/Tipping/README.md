@@ -107,4 +107,67 @@ plt.show()
 <a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_3.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_3.png" /></a>
 
 
+## Fuzzy rules
+Now, to make these triangles useful, we define the fuzzy relationship between input and output variables. For the purposes of our example, consider three simple rules:
+1. If the food is poor OR the service is poor, then the tip will be low
+2. If the service is average, then the tip will be medium
+3. If the food is good OR the service is good, then the tip will be high.
 
+Most people would agree on these rules, but the rules are fuzzy. Mapping the imprecise rules into a defined, actionable tip is a challenge. This is the kind of task at which fuzzy logic excels.
+
+```python
+rule1 = ctrl.Rule(quality['poor'] | service['poor'], tip['low'])
+rule2 = ctrl.Rule(service['average'], tip['medium'])
+rule3 = ctrl.Rule(service['good'] | quality['good'], tip['high'])
+
+rule1.view()
+```
+**Don't forget to put at the end of  `.view ()`**
+```python
+plt.show()
+```
+### Result: 
+```python
+rule1.view()
+plt.show()
+```
+<a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_4.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_4.png" /></a>
+
+## Control System Creation and Simulation
+Now that we have our rules defined, we can simply create a control system via:
+```python
+tipping_ctrl = ctrl.ControlSystem([rule1, rule2, rule3])
+```
+In order to simulate this control system, we will create a `ControlSystemSimulation`. Think of this object representing our controller applied to a specific set of cirucmstances. For tipping, this might be tipping Sharon at the local brew-pub. We would create another `ControlSystemSimulation` when we’re trying to apply our `tipping_ctrl` for Travis at the cafe because the inputs would be different.
+
+```python
+tipping = ctrl.ControlSystemSimulation(tipping_ctrl)
+```
+We can now simulate our control system by simply specifying the inputs and calling the compute method. Suppose we rated the quality 6.5 out of 10 and the service 9.8 of 10.
+```python
+# Pass inputs to the ControlSystem using Antecedent labels with Pythonic API
+# Note: if you like passing many inputs all at once, use .inputs(dict_of_data)
+tipping.input['quality'] = 6.5
+tipping.input['service'] = 9.8
+
+# Crunch the numbers
+tipping.compute()
+```
+Once computed, we can view the result as well as visualize it.
+```python
+print tipping.output['tip']
+tip.view(sim=tipping)
+```
+**Don't forget to put at the end of  `.view ()`**
+```python
+plt.show()
+```
+### Result: 
+```python
+tip.view(sim=tipping)
+plt.show()
+```
+<a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_5.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_5.png" /></a>
+The resulting suggested tip is 20.24%.
+## Final thoughts
+The power of fuzzy systems is allowing complicated, intuitive behavior based on a sparse system of rules with minimal overhead. Note our membership function universes were coarse, only defined at the integers, but `fuzz.interp_membership` allowed the effective resolution to increase on demand. This system can respond to arbitrarily small changes in inputs, and the processing burden is minimal.
