@@ -79,7 +79,7 @@ To help understand what the membership looks like, use the `view` methods.
 # You can see how these look with .view()
 quality['average'].view()
 ```
-To see the graphs with matplotlib, put this at all of end .view
+To see the graphs with matplotlib in [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code"), put this at all of end `.view()`
 ```python
 # You can see graphics in vscode
 plt.show()
