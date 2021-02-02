@@ -6,6 +6,7 @@
 
 - [About](#about)
 - [Installation](#Installation)
+- [Tools](#tools)
 - [More Information](../README.md)
 
 
@@ -21,18 +22,19 @@ The goals of scikit-fuzzy are:
   closed-source options.
 
 [![DOI](https://zenodo.org/badge/8872608.svg)](https://zenodo.org/badge/latestdoi/8872608)
+
 ## Installation <a name = "Installation"></a>
 
 Scikit-Fuzzy depends on
 
-  * NumPy >= 1.6
-  * SciPy >= 0.9
-  * NetworkX >= 1.9
+  * [NumPy](https://numpy.org/install/ "NumPy") >= 1.6
+  * [SciPy](https://www.scipy.org/install.html "SciPy") >= 0.9
+  * [NetworkX ](https://pypi.org/project/networkx/1.9.1/ "NetworkX ") >= 1.9
 
 and is available on PyPi! The latest stable release can always be obtained
 and installed simply by running
 
-    $ pip install -U scikit-fuzzy
+     pip install -U scikit-fuzzy
 
 which will also work to upgrade existing installations to the latest release.
 
@@ -40,11 +42,25 @@ which will also work to upgrade existing installations to the latest release.
 If you prefer to install from source or develop this package, you can fork and
 clone this repository then install SciKit-Fuzzy by running
 
-	$ python setup.py install
+	 python setup.py install
 
 or develop locally by running
 
-	$ python setup.py develop
+	 python setup.py develop
+
 
 If you prefer, you can use SciKit-Fuzzy without installing by simply exporting
 this path to your PYTHONPATH variable.
+
+## Tools <a name = "tools"></a>
+These exercises are developed in [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code"), so you must install it.
+
+For the representation of the graphs we use [Matplotlib](https://matplotlib.org/users/installing.html "matplotlib").
+```python
+pip install -U matplotlib
+```
+
+
+
+ 
+
