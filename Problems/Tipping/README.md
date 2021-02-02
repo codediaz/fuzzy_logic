@@ -85,10 +85,5 @@ To see the graphs with matplotlib, put this at all of end .view
 plt.show()
 ```
 ### Graphic: 
-<center>
 <a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_1.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_1.png" /></a>
-</center>
-
-
-
 
