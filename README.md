@@ -5,6 +5,7 @@ Scikit-Fuzzy is a collection of fuzzy logic algorithms intended for use in the S
 This SciKit is developed by the SciPy community. Contributions are welcome! Please join us on the mailing list or our persistent chatroom on Gitter.IM.
 
 [![DOI](https://zenodo.org/badge/8872608.svg)](https://zenodo.org/badge/latestdoi/8872608)
+[![REPO](https://img.shields.io/badge/REPO-scikit--fuzzy-orange)](https://github.com/scikit-fuzzy/scikit-fuzzy)
 
 ## Homepage and package documentation
 http://pythonhosted.org/scikit-fuzzy/
