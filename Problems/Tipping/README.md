@@ -84,6 +84,10 @@ To see the graphs with matplotlib in [Visual Studio Code](https://code.visualstu
 # You can see graphics in vscode
 plt.show()
 ```
-### Graphic: 
+## Graphics: 
 <a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_1.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_1.png" /></a>
+```python
+service.view()
+plt.show()
+```
 
