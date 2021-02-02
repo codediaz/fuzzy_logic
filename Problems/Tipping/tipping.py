@@ -45,3 +45,4 @@ tipping.compute()
 tip.view(sim=tipping)
 plt.show()
 
+
