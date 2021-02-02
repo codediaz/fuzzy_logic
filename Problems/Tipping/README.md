@@ -168,6 +168,8 @@ tip.view(sim=tipping)
 plt.show()
 ```
 <a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_5.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_5.png" /></a>
+
 The resulting suggested tip is 20.24%.
+
 ## Final thoughts
 The power of fuzzy systems is allowing complicated, intuitive behavior based on a sparse system of rules with minimal overhead. Note our membership function universes were coarse, only defined at the integers, but `fuzz.interp_membership` allowed the effective resolution to increase on demand. This system can respond to arbitrarily small changes in inputs, and the processing burden is minimal.
