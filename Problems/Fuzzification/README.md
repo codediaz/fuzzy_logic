@@ -37,4 +37,7 @@ http://github.com/scikit-fuzzy/scikit-fuzzy
 ## Gitter IM
 https://gitter.im/scikit-fuzzy/scikit-fuzzy
 
+## Mailing List
+http://groups.google.com/group/scikit-fuzzy
+
 
