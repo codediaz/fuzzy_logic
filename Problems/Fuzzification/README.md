@@ -40,4 +40,7 @@ https://gitter.im/scikit-fuzzy/scikit-fuzzy
 ## Mailing List
 http://groups.google.com/group/scikit-fuzzy
 
+IEEE Rounding for Matlab users
+------------------------------
+
 
