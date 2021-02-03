@@ -30,3 +30,7 @@ plt.show()
 
 ## Homepage and package documentation
 http://pythonhosted.org/scikit-fuzzy/
+
+## Source, bugs, and development
+http://github.com/scikit-fuzzy/scikit-fuzzy
+
