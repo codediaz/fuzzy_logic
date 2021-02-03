@@ -32,3 +32,4 @@ exactly between, e.g. 1.5 --> 2; 2.5 --> 2; 3.5 --> 4; 4.5 --> 4, etc. This
 minimizes systematic rounding error. Thus, if re-implementing algorithms from
 Matlab code, slight inconsistencies in rounded results are expected. These are
 not bugs, and will not be fixed.
+
