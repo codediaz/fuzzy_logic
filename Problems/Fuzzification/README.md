@@ -28,3 +28,5 @@ plt.show()
 ```
 <a href="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_3.png"><img alt="" src="https://pythonhosted.org/scikit-fuzzy/_images/plot_tipping_problem_newapi_3.png" /></a>
 
+## Homepage and package documentation
+http://pythonhosted.org/scikit-fuzzy/
