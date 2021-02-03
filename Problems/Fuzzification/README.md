@@ -34,3 +34,7 @@ http://pythonhosted.org/scikit-fuzzy/
 ## Source, bugs, and development
 http://github.com/scikit-fuzzy/scikit-fuzzy
 
+## Gitter IM
+https://gitter.im/scikit-fuzzy/scikit-fuzzy
+
+
